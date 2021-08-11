@@ -1,0 +1,70 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade</title>
+</head>
+<body>
+    
+    <form action="/formularioatividade.html">
+
+<fieldset>
+  <p>
+    Manutenção do Orgão Colegiado
+  </p>
+  <Table border="1">
+    <tr>
+    <th style= "background-color:azure;"> Unidade</th>
+      <td>FACULDADE DE ENGENHARIA DE ILHA SOLTEIRA</td>
+    </tr>
+<tr>
+    <th style= "background-color:azure;">
+  Tipo Colegiado
+  </th>
+  <td>CONGREGAÇÃO</td>
+    </tr>
+  </Table>
+  <fieldset>
+  <h1 style= "background-color:azure;">
+    Orgão Colegiado
+  </h1>
+  </fieldset>
+  <br><Br>
+    <form>
+      
+      <label for="nome">Nome </label>  
+      <input type="text" id="nome" name="nome" size="50"value="CONGREGAÇÃO DA FACULDADE DE ILHA SOLTEIRA"><br><br>
+      <label for="sigla">Sigla </label> 
+      <input type="text" id="sigla" name="sigla" value="CFIS"><br><br>
+        <label for="dataativar">Data Ativação </label>  
+      <input type="date" id="dataativar" name="dataativar" value="15/10/2020">
+      <br><Br>
+      <label for="status">Status </label>  
+      <select id="status">
+      <option value=""> ATIVADO</option>
+          <option value="status"> DESATIVADO</option>
+      </select>
+      <br><br>
+      <label for="datadesativar">Data Desativação </label>  
+      <input type="date" id="datadesativar" name="datadesativar"><Br><Br>
+      
+      <label for="origem">Orgão de Origem</label>
+      <input type="text" id="origem" name="origem" size="30">
+      <input type="button" id="origem" name="origem" value="Buscar">
+      <br><Br>
+      <label for="superior">Orgão Superior</label>
+      <input type="text" id="superior" name="superior" size="32">
+      <input type="button" id="superior" name="superior" value="Buscar"><br><br>
+      
+      <label for="documentacao">Documentação</label>
+      <textarea id="documentacao" name="documentacao"
+          rows="10" cols="50">Orgão criado com o objetivo de aprovar normas da unidade.</textarea><br><bR>
+       <input type="button" id="salvar" name="salvar" value="Salvar">
+       <input type="button" id="excluir" name="excluir" value="Excluir">
+  </form>
+      </fieldset>
+ 
+  
+</form>
+  </body>
+</html>
